@@ -4,8 +4,8 @@
 }*/
 if (typeof window !== 'undefined') {
     console.log('You are on the browser')
-    // ✅ Can use window here 1
+    // ✅ Can use window here 
 } else {
     console.log('You are on the server')
-    // ⛔️ Don't use window here 2
+    // ⛔️ Don't use window here 
 }
